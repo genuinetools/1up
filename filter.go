@@ -13,14 +13,8 @@ type classifier struct {
 	classifier *bayesian.Classifier
 }
 
-func trainClassifier(goodEmails, badEmails []string) (*classifier, error) {
+func trainClassifier(goodStuff, badStuff []string) (*classifier, error) {
 	c := bayesian.NewClassifier(good, bad)
-	goodStuff := []string{"hello", "hi", "hey", "question", "good", "code", "programmer", "engineer"}
-	badStuff := []string{"die", "ugly", "cunt", "bitch", "rape", "bad", "suck", "fuck", "stupid"}
-
-	// Add the testdata emails.
-	goodStuff = append(goodStuff, goodEmails...)
-	badStuff = append(badStuff, badEmails...)
 
 	c.Learn(goodStuff, good)
 	c.Learn(badStuff, bad)
