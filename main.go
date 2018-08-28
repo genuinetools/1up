@@ -42,7 +42,7 @@ func main() {
 	// Create a new cli program.
 	p := cli.NewProgram()
 	p.Name = "1up"
-	p.Description = "A custom Gmail filter bot"
+	p.Description = "A custom Gmail spam filter bot"
 
 	// Set the GitCommit and Version.
 	p.GitCommit = version.GITCOMMIT

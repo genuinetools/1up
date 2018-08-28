@@ -4,7 +4,7 @@
 [![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=for-the-badge)](https://godoc.org/github.com/genuinetools/1up)
 [![Github All Releases](https://img.shields.io/github/downloads/genuinetools/1up/total.svg?style=for-the-badge)](https://github.com/genuinetools/1up/releases)
 
-A custom Gmail filter bot.
+A custom Gmail spam filter bot.
 
 * [How it works](README.md#how-it-works)
 * [Installation](README.md#installation)
@@ -52,7 +52,7 @@ $ docker run --rm -it -v ~/configs/1up:/1up:ro \
 
 ```console
 $ 1up -h
-1up -  A custom Gmail filter bot.
+1up -  A custom Gmail spam filter bot.
 
 Usage: 1up <command>
 
