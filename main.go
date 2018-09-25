@@ -115,7 +115,7 @@ func main() {
 		// Get the client from the config.
 		client, err := getClient(ctx, config)
 		if err != nil {
-			logrus.Fatal("Creating client failed: %v", err)
+			logrus.Fatalf("Creating client failed: %v", err)
 		}
 
 		// Create the service for the Gmail client.
