@@ -8,6 +8,13 @@ A custom Gmail spam filter bot.
 
 <!-- toc -->
 
+- [How it works](#how-it-works)
+- [Installation](#installation)
+    + [Binaries](#binaries)
+    + [Via Go](#via-go)
+    + [Via Docker](#via-docker)
+- [Usage](#usage)
+
 <!-- tocstop -->
 
 ## How it works
