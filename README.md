@@ -1,12 +1,13 @@
 # 1up
 
-[![Travis CI](https://img.shields.io/travis/genuinetools/1up.svg?style=for-the-badge)](https://travis-ci.org/genuinetools/1up)
+![make-all](https://github.com/genuinetools/1up/workflows/make%20all/badge.svg)
+![make-image](https://github.com/genuinetools/1up/workflows/make%20image/badge.svg)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=for-the-badge)](https://godoc.org/github.com/genuinetools/1up)
 [![Github All Releases](https://img.shields.io/github/downloads/genuinetools/1up/total.svg?style=for-the-badge)](https://github.com/genuinetools/1up/releases)
 
 A custom Gmail spam filter bot.
 
-<!-- toc -->
+<!-- start doctoc -->
 
 - [How it works](#how-it-works)
 - [Installation](#installation)
@@ -15,7 +16,7 @@ A custom Gmail spam filter bot.
     + [Via Docker](#via-docker)
 - [Usage](#usage)
 
-<!-- tocstop -->
+<!-- end doctoc -->
 
 ## How it works
 
