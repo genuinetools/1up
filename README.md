@@ -11,13 +11,12 @@ A custom Gmail spam filter bot.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [1up](#1up)
-  - [How it works](#how-it-works)
-  - [Installation](#installation)
-      - [Binaries](#binaries)
-      - [Via Go](#via-go)
-      - [Via Docker](#via-docker)
-  - [Usage](#usage)
+- [How it works](#how-it-works)
+- [Installation](#installation)
+    - [Binaries](#binaries)
+    - [Via Go](#via-go)
+    - [Via Docker](#via-docker)
+- [Usage](#usage)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
