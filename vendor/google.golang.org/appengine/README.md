@@ -1,16 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Go App Engine packages](#go-app-engine-packages)
-  - [Upgrading an App Engine app to the flexible environment](#upgrading-an-app-engine-app-to-the-flexible-environment)
-  - [Directory structure](#directory-structure)
-  - [Updating from legacy (`import "appengine"`) packages](#updating-from-legacy-import-appengine-packages)
-    - [1. Update import paths](#1-update-import-paths)
-    - [2. Update code using deprecated, removed or modified APIs](#2-update-code-using-deprecated-removed-or-modified-apis)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Go App Engine packages
 
 [![Build Status](https://travis-ci.org/golang/appengine.svg)](https://travis-ci.org/golang/appengine)

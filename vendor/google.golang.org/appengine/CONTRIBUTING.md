@@ -1,15 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Contributing](#contributing)
-- [Testing](#testing)
-  - [Running system tests](#running-system-tests)
-  - [Contributor License Agreements](#contributor-license-agreements)
-  - [Contributor Code of Conduct](#contributor-code-of-conduct)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Contributing
 
 1. Sign one of the contributor license agreements below.

@@ -1,17 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Naive Bayesian Classification](#naive-bayesian-classification)
-  - [Background](#background)
-  - [Installation](#installation)
-  - [Documentation](#documentation)
-  - [Features](#features)
-  - [Example 1 (Simple Classification)](#example-1-simple-classification)
-  - [Example 2 (TF-IDF Support)](#example-2-tf-idf-support)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Naive Bayesian Classification
 
 Perform naive Bayesian classification into an arbitrary number of classes on sets of strings. `bayesian` also supports term frequency-inverse document frequency calculations ([TF-IDF](https://www.wikiwand.com/en/Tf%E2%80%93idf)).
