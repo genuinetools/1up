@@ -43,12 +43,12 @@ func getTokenFromWeb(ctx context.Context, config *oauth2.Config) (*oauth2.Token,
 
 	var authCode string
 	if _, err := fmt.Scan(&authCode); err != nil {
-		return nil, fmt.Errorf("Unable to read authorization code: %v", err)
+		return nil, fmt.Errorf("unable to read authorization code: %v", err)
 	}
 
 	tok, err := config.Exchange(ctx, authCode)
 	if err != nil {
-		return nil, fmt.Errorf("Unable to retrieve token from web: %v", err)
+		return nil, fmt.Errorf("unable to retrieve token from web: %v", err)
 	}
 
 	return tok, nil
@@ -73,7 +73,7 @@ func saveToken(path string, token *oauth2.Token) error {
 
 	f, err := os.OpenFile(path, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0600)
 	if err != nil {
-		return fmt.Errorf("Unable to cache oauth token: %v", err)
+		return fmt.Errorf("unable to cache oauth token: %v", err)
 	}
 	defer f.Close()
 
@@ -110,7 +110,7 @@ func getMessageBody(msg *gmail.Message) (body string) {
 func getMessagesForLabel(api *gmail.Service, labelID, label string) ([]string, error) {
 	r, err := api.Users.Messages.List(gmailUser).LabelIds(labelID).MaxResults(500).Do()
 	if err != nil {
-		return nil, fmt.Errorf("Listing messages for label %s failed: %v", label, err)
+		return nil, fmt.Errorf("listing messages for label %s failed: %v", label, err)
 	}
 
 	messages := []string{}
@@ -120,7 +120,7 @@ func getMessagesForLabel(api *gmail.Service, labelID, label string) ([]string, e
 		// Get the message.
 		msg, err := api.Users.Messages.Get(gmailUser, m.Id).Format("full").Do()
 		if err != nil {
-			return nil, fmt.Errorf("Getting message %s in label %s failed: %v", m.Id, label, err)
+			return nil, fmt.Errorf("getting message %s in label %s failed: %v", m.Id, label, err)
 		}
 
 		logrus.Debugf("snippet %s: %s", msg.Id, msg.Snippet)
