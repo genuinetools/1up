@@ -1,3 +1,12 @@
+# 1up
+
+![make-all](https://github.com/genuinetools/1up/workflows/make%20all/badge.svg)
+![make-image](https://github.com/genuinetools/1up/workflows/make%20image/badge.svg)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=for-the-badge)](https://godoc.org/github.com/genuinetools/1up)
+[![Github All Releases](https://img.shields.io/github/downloads/genuinetools/1up/total.svg?style=for-the-badge)](https://github.com/genuinetools/1up/releases)
+
+A custom Gmail spam filter bot.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
@@ -11,26 +20,6 @@
   - [Usage](#usage)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# 1up
-
-![make-all](https://github.com/genuinetools/1up/workflows/make%20all/badge.svg)
-![make-image](https://github.com/genuinetools/1up/workflows/make%20image/badge.svg)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=for-the-badge)](https://godoc.org/github.com/genuinetools/1up)
-[![Github All Releases](https://img.shields.io/github/downloads/genuinetools/1up/total.svg?style=for-the-badge)](https://github.com/genuinetools/1up/releases)
-
-A custom Gmail spam filter bot.
-
-<!-- start doctoc -->
-
-- [How it works](#how-it-works)
-- [Installation](#installation)
-    + [Binaries](#binaries)
-    + [Via Go](#via-go)
-    + [Via Docker](#via-docker)
-- [Usage](#usage)
-
-<!-- end doctoc -->
 
 ## How it works
 
