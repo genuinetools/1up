@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [1up](#1up)
+  - [How it works](#how-it-works)
+  - [Installation](#installation)
+      - [Binaries](#binaries)
+      - [Via Go](#via-go)
+      - [Via Docker](#via-docker)
+  - [Usage](#usage)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 1up
 
 ![make-all](https://github.com/genuinetools/1up/workflows/make%20all/badge.svg)
